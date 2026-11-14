@@ -394,6 +394,10 @@ function BuildingCard({ building }: { building: BuildingRecord }) {
           ? "IT"
           : building.country === "Austria"
           ? "AT"
+          : building.country === "Brazil"
+          ? "BR"
+          : building.country === "Japan"
+          ? "JP"
           : building.country.slice(0, 2).toUpperCase()}{" "}
         / {building.completionYear}
       </p>
