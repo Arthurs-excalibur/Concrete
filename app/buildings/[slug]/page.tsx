@@ -286,7 +286,7 @@ export default async function BuildingDossierPage({ params }: PageProps) {
               </Link>
 
               <span className="font-mono text-[11px] text-muted-ink">
-                SPECIMEN {building.id} OF 009
+                SPECIMEN {building.id} OF {String(BUILDINGS.length).padStart(3, "0")}
               </span>
             </div>
           </div>

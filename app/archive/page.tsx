@@ -388,7 +388,13 @@ function BuildingCard({ building }: { building: BuildingRecord }) {
           ? "US"
           : building.country === "Canada"
           ? "CA"
-          : "FR"}{" "}
+          : building.country === "France"
+          ? "FR"
+          : building.country === "Italy"
+          ? "IT"
+          : building.country === "Austria"
+          ? "AT"
+          : building.country.slice(0, 2).toUpperCase()}{" "}
         / {building.completionYear}
       </p>
 
