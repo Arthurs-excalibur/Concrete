@@ -62,7 +62,7 @@ export default function SiteHeader() {
                 : "text-ink hover:text-signal-red"
             }`}
           >
-            03&nbsp;&nbsp;ARCHIVE&nbsp;↗
+            03&nbsp;&nbsp;ARCHIVE&nbsp;↗︎
           </Link>
         </nav>
 
@@ -109,7 +109,7 @@ export default function SiteHeader() {
               isArchive ? "text-signal-red font-semibold" : "text-ink"
             }`}
           >
-            03  ARCHIVE ↗
+            03  ARCHIVE ↗︎
           </Link>
         </div>
       )}

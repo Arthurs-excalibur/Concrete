@@ -308,7 +308,7 @@ export default function ArchivePage() {
                     {building.buildingType}
                   </span>
                   <span className="text-[20px] text-ink group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
-                    ↗
+                    ↗︎
                   </span>
                 </div>
               </Link>
@@ -375,7 +375,7 @@ function BuildingCard({ building }: { building: BuildingRecord }) {
             className="w-full bg-signal-red text-ink py-2.5 px-4 font-mono text-[11px] font-semibold uppercase flex items-center justify-between tracking-wider hover:bg-white transition-colors"
           >
             <span>OPEN DOSSIER</span>
-            <span className="text-[18px]">↗</span>
+            <span className="text-[18px]">↗︎</span>
           </Link>
         </div>
       </div>
@@ -416,7 +416,7 @@ function BuildingCard({ building }: { building: BuildingRecord }) {
           className="text-[20px] text-ink hover:text-signal-red transition-colors"
           aria-hidden="true"
         >
-          ↗
+          ↗︎
         </Link>
       </div>
 

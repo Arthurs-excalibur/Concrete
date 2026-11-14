@@ -51,7 +51,7 @@ export default function SelectedStories() {
                   {building.name}
                 </h3>
                 <span className="text-[22px] text-ink transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">
-                  ↗
+                  ↗︎
                 </span>
               </div>
 

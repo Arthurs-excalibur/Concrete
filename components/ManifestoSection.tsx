@@ -23,7 +23,7 @@ export default function ManifestoSection() {
             href="#about"
             className="font-mono text-[12px] font-medium tracking-wider uppercase flex items-center gap-1 hover:opacity-80 transition-opacity whitespace-nowrap self-start lg:self-auto"
           >
-            THE MANIFESTO ↗
+            THE MANIFESTO ↗︎
           </a>
         </div>
       </div>

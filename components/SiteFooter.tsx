@@ -30,13 +30,13 @@ export default function SiteFooter() {
               rel="noopener noreferrer"
               className="hover:text-signal-red transition-colors"
             >
-              INSTAGRAM ↗
+              INSTAGRAM ↗︎
             </a>
             <a
               href="mailto:arthurzareno@gmail.com"
               className="hover:text-signal-red transition-colors"
             >
-              CONTACT ↗
+              CONTACT ↗︎
             </a>
             <button
               onClick={scrollToTop}

@@ -39,7 +39,7 @@ export default function FeaturedDossier() {
             >
               <span>OPEN THE DOSSIER</span>
               <span className="text-[24px] leading-none transition-transform group-hover:translate-x-1 group-hover:-translate-y-1">
-                ↗
+                ↗︎
               </span>
             </Link>
           </div>
