@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import MaterialIntelligence from "@/components/MaterialIntelligence";
+import ProgressiveImage from "@/components/ProgressiveImage";
 import { BUILDINGS, getBuildingBySlug, getAdjacentBuildings } from "@/data/buildings";
 
 interface PageProps {
@@ -66,8 +67,8 @@ export default async function BuildingDossierPage({ params }: PageProps) {
         {/* SECTION 1: IMMERSIVE COVER HERO (820px)                   */}
         {/* ========================================================= */}
         <section className="relative w-full h-[620px] sm:h-[740px] lg:h-[820px] overflow-hidden bg-ink text-concrete">
-          {/* Full-bleed photography */}
-          <Image
+          {/* Full-bleed photography with progressive quality swap */}
+          <ProgressiveImage
             src={building.heroImage}
             alt={building.name}
             fill

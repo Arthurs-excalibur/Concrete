@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import ProgressiveImage from "@/components/ProgressiveImage";
 
 export default function CoverPhoto() {
   return (
@@ -10,8 +10,8 @@ export default function CoverPhoto() {
           className="group block relative w-full h-[380px] sm:h-[500px] lg:h-[584px] overflow-hidden border border-ink/20"
           aria-label="View Barbican Estate Dossier"
         >
-          {/* Main Cover Image */}
-          <Image
+          {/* Main Cover Image with progressive quality swap */}
+          <ProgressiveImage
             src="/images/buildings/barbican.png"
             alt="Barbican Estate monumental concrete towers reflecting over water"
             fill

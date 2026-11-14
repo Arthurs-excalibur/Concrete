@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import ProgressiveImage from "@/components/ProgressiveImage";
 import { BUILDINGS } from "@/data/buildings";
 
 export default function SelectedStories() {
@@ -29,7 +29,7 @@ export default function SelectedStories() {
             >
               {/* Image Container with subtle crop & hover scaling */}
               <div className="relative w-full aspect-[432/308] overflow-hidden bg-white/40 border border-ink/10 mb-5">
-                <Image
+                <ProgressiveImage
                   src={building.heroImage}
                   alt={building.name}
                   fill

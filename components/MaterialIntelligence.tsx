@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import ProgressiveImage from "@/components/ProgressiveImage";
 import { BuildingAnnotation } from "@/data/buildings";
 
 interface MaterialIntelligenceProps {
@@ -35,7 +35,7 @@ export default function MaterialIntelligence({
           {/* Left: Material Study Image Container (8 cols) */}
           <div className="lg:col-span-8 flex flex-col">
             <div className="relative w-full aspect-[886/480] bg-white/50 border border-ink/20 overflow-hidden">
-              <Image
+              <ProgressiveImage
                 src={imageSrc}
                 alt={`${buildingName} concrete material study`}
                 fill

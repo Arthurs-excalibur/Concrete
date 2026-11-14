@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import ProgressiveImage from "@/components/ProgressiveImage";
 import { BUILDINGS, BuildingRecord } from "@/data/buildings";
 
 export default function ArchivePage() {
@@ -337,8 +338,8 @@ function BuildingCard({ building }: { building: BuildingRecord }) {
     <article className="group relative flex flex-col justify-between">
       {/* Visual Container */}
       <div className="relative w-full aspect-[432/270] overflow-hidden bg-white/40 border border-ink/10 mb-4">
-        {/* Photo */}
-        <Image
+        {/* Photo with progressive quality swap */}
+        <ProgressiveImage
           src={building.heroImage}
           alt={building.name}
           fill
