@@ -26,15 +26,14 @@ export default function SiteFooter() {
 
           <div className="flex items-center space-x-6 font-mono text-[11px] text-ink">
             <a
-              href="https://instagram.com"
-              target="_blank"
+              href="https://www.instagram.com/arthurrzrn/"
               rel="noopener noreferrer"
               className="hover:text-signal-red transition-colors"
             >
               INSTAGRAM ↗
             </a>
             <a
-              href="mailto:editorial@concrete-journal.org"
+              href="mailto:arthurzareno@gmail.com"
               className="hover:text-signal-red transition-colors"
             >
               CONTACT ↗

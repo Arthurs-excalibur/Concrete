@@ -13,7 +13,7 @@ export default function Masthead() {
           <p className="tracking-widest uppercase text-muted-ink">
             ISSUE 004 — THE COLLECTIVE
           </p>
-          <p className="tracking-widest uppercase">EST. 2024 / VOL. IV</p>
+          <p className="tracking-widest uppercase">EST. 2026 / VOL. IV</p>
         </div>
       </div>
     </section>
