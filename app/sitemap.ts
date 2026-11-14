@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { BUILDINGS } from "@/data/buildings";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://concrete-journal.org";
 

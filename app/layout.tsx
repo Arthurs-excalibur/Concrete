@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/icon-light.png",
-        width: 512,
-        height: 512,
+        url: "/logo-dark.png",
+        width: 800,
+        height: 600,
         alt: "CONCRETE Logo",
       },
     ],
@@ -41,33 +41,19 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
       {
-        url: "/icon-light-32.png",
-        sizes: "32x32",
+        url: "/logo-dark.png",
         type: "image/png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-light.png",
-        sizes: "512x512",
-        type: "image/png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32.png",
-        sizes: "32x32",
-        type: "image/png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon-dark.png",
-        sizes: "512x512",
+        url: "/logo-light.png",
         type: "image/png",
         media: "(prefers-color-scheme: dark)",
       },
     ],
     apple: [
       {
-        url: "/apple-icon.png",
+        url: "/logo-dark.png",
         sizes: "180x180",
         type: "image/png",
       },
