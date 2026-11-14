@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-ibm-mono: "IBM Plex Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F2F1EC;
+  color: #191A17;
+}
+
+body {
+  background-color: #F2F1EC;
+  color: #191A17;
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #EF3D24;
+  color: #F2F1EC;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2F1EC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BDBDB4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #191A17;
+}
+
+@layer utilities {
+  .editorial-rule {
+    height: 1px;
+    background-color: #BDBDB4;
+    width: 100%;
+  }
+
+  .editorial-rule-dark {
+    height: 1px;
+    background-color: #191A17;
+    width: 100%;
+  }
+
+  .fade-in-up {
+    animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
