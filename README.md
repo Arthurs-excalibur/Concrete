@@ -2,8 +2,7 @@
 
 An independent architecture journal documenting brutalism and the built world.
 
-[![Live](https://img.shields.io/badge/live-concrete--aew.pages.dev-000000?style=flat-square)](https://concrete-aew.pages.dev/) [![Figma](https://shields.io)](https://www.figma.com/design/LQxJrLKKo6fGHephTRPktt/Concrete?t=7KHs6DiNowi0JIGh-0)
-
+[![Live](https://img.shields.io/badge/live-concrete--aew.pages.dev-000000?style=flat-square)](https://concrete-aew.pages.dev/)
 ---
 
 ![CONCRETE Preview](docs/preview.jpg)
